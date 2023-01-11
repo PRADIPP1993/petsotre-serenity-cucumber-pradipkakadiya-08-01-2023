@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Users tags test","This test will verify if a status code of 200 is returned for GET request","FAILURE","2023-01-11T11:09:17.014Z[Europe/London]","0.0","4.6"

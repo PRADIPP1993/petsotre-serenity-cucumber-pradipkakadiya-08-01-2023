@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="io.swagger.petstore.crudtests.UsersTagsTest" skipped="0" tests="1" time="4.6" timestamp="2023-01-11T11:09:17.014Z[Europe/London]"><testcase classname="io.swagger.petstore.crudtests.UsersTagsTest" name="This test will verify if a status code of 200 is returned for GET request"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;405&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;405&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;405&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+io.swagger.petstore.crudtests.UsersTagsTest.verifyIfTheStatusCodeIs200(UsersTagsTest.java:39)&#13;
+</system-err></testcase></testsuite>
